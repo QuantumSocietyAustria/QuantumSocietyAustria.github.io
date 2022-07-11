@@ -26,22 +26,26 @@ body {
 	word-spacing: -10%;
 	background-color: var(--color-bg);
 	color: var(--color-txt);
+	display: grid;
+	grid-template-columns: 1fr 70vw 1fr;
+	grid-template-rows: 100px 1fr 1fr;
+	grid-template-areas:
+		". nav ."
+		". main ."
+		"footer footer footer";
 }
+header {grid-area: nav;}
+#content {grid-area: main;}
+footer {grid-area: footer;}
 
 h1, h2, h3, h4, p {
 	color: var(--color-txt);
 }
 
-.home {
-	width: 100vw;
-	height: 100vh;
-	background: rgb(78,1,176);
-	background: radial-gradient(circle, rgba(78,1,176,1) 0%, rgba(12,0,27,1) 18%, rgba(78,1,176,1) 29%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%); 
-}
 
 .home h1 {
 	font-size: calc(var(--base-font-size)*8);
 	word-spacing: -50%;
-	font-weight: 100;
+	font-weight: 800;
 }
 .home h1+p {font-size: calc(var(--base-font-size)*2);}
