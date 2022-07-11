@@ -1,1 +1,5 @@
-Test
+{{ define "main" }}
+<main aria-role="main" {{ if .IsHome }} class="home" {{ end }}>
+	{{ .Content }}
+</main>
+{{ end }}
