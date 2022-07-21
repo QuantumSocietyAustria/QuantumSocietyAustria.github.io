@@ -10,3 +10,17 @@ menu:
 # Quantum Society Austria
 
 We are an inclusive quantum computing community for Austria.
+
+Get in touch with us:
+
+- GitHub
+- Signal
+- Email
+
+Qui similique ut corrupti harum quia nihil. Voluptatibus laborum qui deserunt harum. Numquam veritatis aut nihil repellat repellat vel earum et. Officiis sequi quas cumque voluptas deleniti.
+
+Enim hic ipsam voluptatum doloribus provident rerum veniam. Ut possimus natus excepturi quibusdam fugiat. Amet qui recusandae magni aliquam sit nemo.
+
+Voluptatem dolor est id consequuntur. Unde repellat expedita dicta. Veniam dolore libero ea atque eligendi sunt rerum. Enim rerum aut ipsa architecto aut. Vero sit inventore ut cum. Corporis id rerum quisquam repellendus voluptas ratione.
+
+In nobis aspernatur eos. Alias distinctio rem animi possimus nemo. Laboriosam quae fugiat sint tenetur omnis similique. Enim recusandae magni fugit et. Laborum doloremque hic consectetur et est. Et aut qui et autem minus doloribus quod in.
