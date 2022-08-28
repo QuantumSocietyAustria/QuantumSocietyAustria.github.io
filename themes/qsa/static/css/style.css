@@ -14,6 +14,7 @@
 
 	--color-bg: white;
 	--color-txt: black;
+	--color-gray: #f6f6f6;
 
 	--gradient: linear-gradient(165deg, rgb(16.471% 88.627% 92.549%) 0%, rgb(16.46% 87.591% 92.566%) 6.25%, rgb(16.427% 84.478% 92.618%) 12.5%, rgb(16.372% 79.274% 92.703%) 18.75%, rgb(16.295% 71.956% 92.823%) 25%, rgb(16.196% 62.49% 92.977%) 31.25%, rgb(16.076% 50.836% 93.165%) 37.5%, rgb(15.934% 36.942% 93.386%) 43.75%, rgb(15.771% 20.749% 93.641%) 50%, rgb(28.984% 15.586% 93.93%) 56.25%, rgb(49.58% 15.381% 94.252%) 62.5%, rgb(72.665% 15.155% 94.606%) 68.75%, rgb(94.994% 14.908% 91.653%) 75%, rgb(95.413% 14.642% 64.136%) 81.25%, rgb(95.865% 14.356% 33.886%) 87.5%, rgb(96.348% 27.315% 14.05%) 93.75%, rgb(96.863% 62.745% 13.725%) 100% );
 
@@ -96,7 +97,6 @@
 
 
 body {
-	/* font-family: "JetBrains Mono", monospace; */
 	font-family: "Inter", sans-serif;
 	font-size: var(--base-font-size);
 	line-height: 1.2;
@@ -131,6 +131,9 @@ a {
 	animation: txt-color-change 20s linear infinite alternate;
 	background-image: var(--txt-gradient);
 	background-size: 100% 500%;
+}
+code {
+	font-family: "JetBrains Mono", monospace;
 }
 
 li {
@@ -230,7 +233,7 @@ nav a:hover {
 	align-content: center;
 	gap: 60px;
 	width: 100%;
-	background: #f6f6f6;
+	background: var(--color-gray);
 	padding: 40px 0px 45px 0px;
 	border-radius: 20px;
 	margin: 50px 0px;
@@ -264,4 +267,9 @@ nav a:hover {
 }
 .contact li img {
 	width: 50%;
+}
+
+footer {
+	padding: 20px 50px;
+	background-color: var(--color-gray);
 }
