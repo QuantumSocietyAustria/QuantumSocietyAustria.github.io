@@ -113,7 +113,7 @@ body {
 	grid-row-gap: 20px;
 }
 header {grid-area: nav; align-self: center;}
-#content {grid-area: main;}
+#content {grid-area: main; padding: 50px 0px;}
 footer {grid-area: footer;}
 
 h1, h2, h3, h4, p, ul, li {
