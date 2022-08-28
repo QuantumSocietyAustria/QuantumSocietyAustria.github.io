@@ -1,4 +1,4 @@
-baseURL = 'quantumsocietyaustria.github.io'
+baseURL = 'https://quantumsocietyaustria.github.io/'
 languageCode = 'en-us'
 title = 'Quantum Society Austria'
 theme = 'qsa'
