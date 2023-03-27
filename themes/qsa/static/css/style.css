@@ -166,6 +166,7 @@ nav {
 
 h1::before {
 	content: "";
+	margin: auto;
 	transition: filter .4s ease-in-out;
 	transition: box-shadow .4s ease-in-out;
 	border-radius: 50%;
@@ -173,9 +174,7 @@ h1::before {
 	display: block;
 	width: var(--orb-size);
 	height: var(--orb-size);
-	top: 40px;
   	left: calc(50% - var(--orb-size)/2);
-	position: absolute;
 	z-index: 1;
 	animation: orb-color-change 4000ms;
     animation-timing-function: linear;
@@ -208,12 +207,7 @@ nav ul li {
 	text-transform: lowercase;
 	margin-left: 0px;
 }
-nav a {
-	text-decoration: none;
-}
-nav a:hover {
 
-}
 
 .contact {
 	display: flex;
