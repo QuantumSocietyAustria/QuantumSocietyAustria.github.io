@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
-</html>
+{{ define "main" }}
+<main role="main" class="list">
+    <h1>{{ .Title }}</h1>
+    <ul>
+        {{ range .Pages.ByTitle }}
+        <li>
+            <h2><strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong></h2>
+            <p><time>{{ .Page.Params.start }}</time>{{ if .Page.Params.end }} – <time>{{ .Page.Params.end }}</time>{{ end }}</p>
+            <p>{{ .Summary }}</p>
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

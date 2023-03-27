@@ -8,4 +8,6 @@ menu:
         name: "Home"
 ---
 
+# Quantum Society Austria
+
 This is our new homepage!

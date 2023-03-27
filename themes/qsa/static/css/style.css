@@ -161,7 +161,7 @@ nav {
 	border-radius: 50px;
 }
 
-h1::before {
+.home h1::before {
 	content: "";
 	margin: auto;
 	transition: filter .4s ease-in-out;
