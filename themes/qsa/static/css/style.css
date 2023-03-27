@@ -96,10 +96,11 @@ body {
  Helvetica, Arial, sans-serif,
  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: var(--base-font-size);
-	line-height: 1.2;
+	line-height: 1.5;
 	word-spacing: -10%;
 	/* background-color: var(--color-bg); */
 	/* color: var(--color-txt); */
+	padding: 50px;
 }
 
 body > * {
@@ -129,7 +130,7 @@ li {
 	margin-left: 50px;
 }
 .home h1 {
-	font-size: 7em;
+	font-size: 5em;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
  Helvetica, Arial, sans-serif,
  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
