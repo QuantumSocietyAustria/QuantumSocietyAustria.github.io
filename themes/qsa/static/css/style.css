@@ -107,18 +107,9 @@ body {
 	word-spacing: -10%;
 	/* background-color: var(--color-bg); */
 	/* color: var(--color-txt); */
-	display: grid;
-	grid-template-columns: 1fr var(--content-width) 1fr;
-	grid-template-rows: var(--orb-size) 1fr auto;
-	grid-template-areas:
-		". nav ."
-		". main ."
-		". footer .";
-	grid-row-gap: 20px;
+
 }
-header {grid-area: nav; align-self: center;}
-#content {grid-area: main; padding: 50px 0px;}
-footer {grid-area: footer;}
+
 
 h1, h2, h3, h4, p, ul, li {
 	/* color: var(--color-txt); */
