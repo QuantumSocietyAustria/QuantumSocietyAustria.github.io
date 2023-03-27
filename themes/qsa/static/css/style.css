@@ -113,7 +113,7 @@ body {
 	grid-template-areas:
 		". nav ."
 		". main ."
-		"footer footer footer";
+		". footer .";
 	grid-row-gap: 20px;
 }
 header {grid-area: nav; align-self: center;}
@@ -276,6 +276,6 @@ nav a:hover {
 }
 
 footer {
-	padding: 20px 50px;
+	/* padding: 20px 50px; */
 	/* background-color: var(--color-gray); */
 }
