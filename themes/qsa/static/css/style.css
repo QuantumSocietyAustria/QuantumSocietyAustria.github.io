@@ -12,11 +12,6 @@
 	color-scheme: light dark;
 
 	--base-font-size: 17pt;
-	--content-width: 50vw;
-
-	--color-bg: white;
-	--color-txt: black;
-	--color-gray: #f6f6f6;
 
 	--gradient: linear-gradient(165deg, rgb(16.471% 88.627% 92.549%) 0%, rgb(16.46% 87.591% 92.566%) 6.25%, rgb(16.427% 84.478% 92.618%) 12.5%, rgb(16.372% 79.274% 92.703%) 18.75%, rgb(16.295% 71.956% 92.823%) 25%, rgb(16.196% 62.49% 92.977%) 31.25%, rgb(16.076% 50.836% 93.165%) 37.5%, rgb(15.934% 36.942% 93.386%) 43.75%, rgb(15.771% 20.749% 93.641%) 50%, rgb(28.984% 15.586% 93.93%) 56.25%, rgb(49.58% 15.381% 94.252%) 62.5%, rgb(72.665% 15.155% 94.606%) 68.75%, rgb(94.994% 14.908% 91.653%) 75%, rgb(95.413% 14.642% 64.136%) 81.25%, rgb(95.865% 14.356% 33.886%) 87.5%, rgb(96.348% 27.315% 14.05%) 93.75%, rgb(96.863% 62.745% 13.725%) 100% );
 
@@ -69,13 +64,11 @@
 @media only screen and (max-width: 1400px) {
 	:root {
 		--base-font-size: 15pt;
-		--content-width: 70vw;
 	}
   }
 @media only screen and (max-width: 800px) {
 	:root {
-		--base-font-size: 13pt;
-		--content-width: 90vw;
+		--base-font-size: 12pt;
 	}
   }
 
@@ -107,9 +100,12 @@ body {
 	word-spacing: -10%;
 	/* background-color: var(--color-bg); */
 	/* color: var(--color-txt); */
-
 }
 
+body > * {
+	max-width: 800px;
+	margin: auto;
+}
 
 h1, h2, h3, h4, p, ul, li {
 	/* color: var(--color-txt); */
