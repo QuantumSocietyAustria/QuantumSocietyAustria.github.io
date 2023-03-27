@@ -3,12 +3,14 @@
 /* -------------------------------------------------------------------------- */
 
 * {
-	color: var(--color-txt);
+	/* color: var(--color-txt); */
 	margin: 0px;
 	padding: 0px;
 }
 
 :root {
+	color-scheme: light dark;
+
 	--base-font-size: 17pt;
 	--content-width: 50vw;
 
@@ -101,8 +103,8 @@ body {
 	font-size: var(--base-font-size);
 	line-height: 1.2;
 	word-spacing: -10%;
-	background-color: var(--color-bg);
-	color: var(--color-txt);
+	/* background-color: var(--color-bg); */
+	/* color: var(--color-txt); */
 	display: grid;
 	grid-template-columns: 1fr var(--content-width) 1fr;
 	grid-template-rows: var(--orb-size) 1fr auto;
@@ -117,7 +119,7 @@ header {grid-area: nav; align-self: center;}
 footer {grid-area: footer;}
 
 h1, h2, h3, h4, p, ul, li {
-	color: var(--color-txt);
+	/* color: var(--color-txt); */
 }
 p, ul, ol {
 	margin-bottom: 15px;
@@ -152,7 +154,7 @@ li {
 	z-index: 10;
 }
 .home h1+p, h2 {
-	color: var(--color-txt);
+	/* color: var(--color-txt); */
 	font-weight: 600;
 	font-size: 2.1em;
 	letter-spacing: -0.021em;
@@ -166,7 +168,7 @@ li {
 nav {
 	width: 100%;
 	height: 60px;
-	background-color: rgba(255,255,255,0.15);
+	/* background-color: rgba(255,255,255,0.15); */
 	border-radius: 50px;
 }
 
@@ -233,7 +235,7 @@ nav a:hover {
 	align-content: center;
 	gap: 60px;
 	width: 100%;
-	background: var(--color-gray);
+	/* background: var(--color-gray); */
 	padding: 40px 0px 45px 0px;
 	border-radius: 20px;
 	margin: 50px 0px;
@@ -243,7 +245,7 @@ nav a:hover {
 	margin: 0px;
 	height: 150px;
 	width: 150px;
-	background: white;
+	/* background: white; */
 	border-radius: 15px;
 	transition: box-shadow .5s ease-in-out;
 }
@@ -271,5 +273,5 @@ nav a:hover {
 
 footer {
 	padding: 20px 50px;
-	background-color: var(--color-gray);
+	/* background-color: var(--color-gray); */
 }
