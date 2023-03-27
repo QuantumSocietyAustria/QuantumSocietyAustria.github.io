@@ -210,9 +210,8 @@ nav ul li {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	gap: 60px;
+	gap: 50px;
 	width: 100%;
-	/* background: var(--color-gray); */
 	padding: 40px 0px 45px 0px;
 	border-radius: 20px;
 	margin: 50px 0px;
@@ -220,9 +219,7 @@ nav ul li {
 .contact li {
 	list-style: none;
 	margin: 0px;
-	height: 150px;
-	width: 150px;
-	/* background: white; */
+	padding: 20px;
 	border-radius: 15px;
 	transition: box-shadow .5s ease-in-out;
 }
@@ -242,8 +239,10 @@ nav ul li {
 	-webkit-text-fill-color: initial;
 	background: none;
 	position: relative;
+	text-decoration: none;
 	top: 12px;
 }
+
 .contact li img {
 	width: 50%;
 }
