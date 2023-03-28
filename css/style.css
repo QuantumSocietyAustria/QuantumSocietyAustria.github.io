@@ -1,20 +1,12 @@
-/* -------------------------------------------------------------------------- */
-/*                                    Reset                                   */
-/* -------------------------------------------------------------------------- */
-
 * {
-	color: var(--color-txt);
 	margin: 0px;
 	padding: 0px;
 }
 
 :root {
-	--base-font-size: 17pt;
-	--content-width: 50vw;
+	color-scheme: light dark;
 
-	--color-bg: white;
-	--color-txt: black;
-	--color-gray: #f6f6f6;
+	--base-font-size: 17pt;
 
 	--gradient: linear-gradient(165deg, rgb(16.471% 88.627% 92.549%) 0%, rgb(16.46% 87.591% 92.566%) 6.25%, rgb(16.427% 84.478% 92.618%) 12.5%, rgb(16.372% 79.274% 92.703%) 18.75%, rgb(16.295% 71.956% 92.823%) 25%, rgb(16.196% 62.49% 92.977%) 31.25%, rgb(16.076% 50.836% 93.165%) 37.5%, rgb(15.934% 36.942% 93.386%) 43.75%, rgb(15.771% 20.749% 93.641%) 50%, rgb(28.984% 15.586% 93.93%) 56.25%, rgb(49.58% 15.381% 94.252%) 62.5%, rgb(72.665% 15.155% 94.606%) 68.75%, rgb(94.994% 14.908% 91.653%) 75%, rgb(95.413% 14.642% 64.136%) 81.25%, rgb(95.865% 14.356% 33.886%) 87.5%, rgb(96.348% 27.315% 14.05%) 93.75%, rgb(96.863% 62.745% 13.725%) 100% );
 
@@ -67,13 +59,11 @@
 @media only screen and (max-width: 1400px) {
 	:root {
 		--base-font-size: 15pt;
-		--content-width: 70vw;
 	}
   }
 @media only screen and (max-width: 800px) {
 	:root {
-		--base-font-size: 13pt;
-		--content-width: 90vw;
+		--base-font-size: 12pt;
 	}
   }
 
@@ -97,51 +87,52 @@
 
 
 body {
-	font-family: "Inter", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Helvetica, Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: var(--base-font-size);
-	line-height: 1.2;
+	line-height: 1.5;
 	word-spacing: -10%;
-	background-color: var(--color-bg);
-	color: var(--color-txt);
-	display: grid;
-	grid-template-columns: 1fr var(--content-width) 1fr;
-	grid-template-rows: var(--orb-size) 1fr auto;
-	grid-template-areas:
-		". nav ."
-		". main ."
-		"footer footer footer";
-	grid-row-gap: 20px;
+	padding: 50px;
 }
-header {grid-area: nav; align-self: center;}
-#content {grid-area: main; padding: 50px 0px;}
-footer {grid-area: footer;}
+.gradient::before {
+	content: "";
+	background: var(--gradient);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10px;
+	filter: blur(20px);
+}
 
-h1, h2, h3, h4, p, ul, li {
-	color: var(--color-txt);
+body > * {
+	max-width: 800px;
+	margin: auto;
+}
+
+h1 {
+	margin-bottom: 20px;
 }
 p, ul, ol {
 	margin-bottom: 15px;
 }
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	border-radius: 10px;
-	background: var(--txt-gradient-1);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: txt-color-change 20s linear infinite alternate;
-	background-image: var(--txt-gradient);
-	background-size: 100% 500%;
+	color: CanvasText;
+}
+a:hover {
+	text-decoration: none;
 }
 code {
-	font-family: "JetBrains Mono", monospace;
+	font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
 
 li {
 	margin-left: 50px;
 }
 .home h1 {
-	font-size: 7em;
-	font-family: "Inter", sans-serif;
+	font-size: 5em;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Helvetica, Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-weight: 800;
 	letter-spacing: -0.022em;
 	line-height: 135px;
@@ -152,7 +143,6 @@ li {
 	z-index: 10;
 }
 .home h1+p, h2 {
-	color: var(--color-txt);
 	font-weight: 600;
 	font-size: 2.1em;
 	letter-spacing: -0.021em;
@@ -166,12 +156,12 @@ li {
 nav {
 	width: 100%;
 	height: 60px;
-	background-color: rgba(255,255,255,0.15);
 	border-radius: 50px;
 }
 
-h1::before {
+.home h1::before {
 	content: "";
+	margin: auto;
 	transition: filter .4s ease-in-out;
 	transition: box-shadow .4s ease-in-out;
 	border-radius: 50%;
@@ -179,9 +169,7 @@ h1::before {
 	display: block;
 	width: var(--orb-size);
 	height: var(--orb-size);
-	top: 40px;
   	left: calc(50% - var(--orb-size)/2);
-	position: absolute;
 	z-index: 1;
 	animation: orb-color-change 4000ms;
     animation-timing-function: linear;
@@ -205,8 +193,6 @@ nav ul {
 	gap: 30px;
 	width: 100%;
 	height: 100%;
-	position: relative;
-	left: 90px;
 }
 nav ul li {
 	list-style: none;
@@ -216,24 +202,14 @@ nav ul li {
 	text-transform: lowercase;
 	margin-left: 0px;
 }
-nav a {
-	color: rgba(255,255,255,.7);
-	text-decoration: none;
-}
-nav a:hover {
-	background-image: var(--gradient);
-	background-clip: text;
-	color: transparent;
-	text-shadow: 0px 0px 4px rgba(255,255,255,.5);
-}
+
 
 .contact {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	gap: 60px;
+	gap: 50px;
 	width: 100%;
-	background: var(--color-gray);
 	padding: 40px 0px 45px 0px;
 	border-radius: 20px;
 	margin: 50px 0px;
@@ -241,9 +217,7 @@ nav a:hover {
 .contact li {
 	list-style: none;
 	margin: 0px;
-	height: 150px;
-	width: 150px;
-	background: white;
+	padding: 20px;
 	border-radius: 15px;
 	transition: box-shadow .5s ease-in-out;
 }
@@ -263,13 +237,28 @@ nav a:hover {
 	-webkit-text-fill-color: initial;
 	background: none;
 	position: relative;
+	text-decoration: none;
 	top: 12px;
 }
+
 .contact li img {
 	width: 50%;
 }
-
 footer {
-	padding: 20px 50px;
-	background-color: var(--color-gray);
+	margin-top: 20px;
+}
+
+.list > ul {
+	list-style-type: none;
+}
+.list > ul li {
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+.list > ul h2, .list > ul p {
+	margin: 0px;
+}
+.list > ul h2 {
+	font-size: var(--base-font-size);
+	margin-bottom: 4px;
 }
