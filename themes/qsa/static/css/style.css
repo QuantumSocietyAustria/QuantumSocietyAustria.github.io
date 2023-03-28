@@ -111,6 +111,9 @@ body > * {
 h1, h2, h3, h4, p, ul, li {
 	/* color: var(--color-txt); */
 }
+h1 {
+	margin-bottom: 20px;
+}
 p, ul, ol {
 	margin-bottom: 15px;
 }
@@ -250,4 +253,18 @@ nav ul li {
 footer {
 	/* padding: 20px 50px; */
 	/* background-color: var(--color-gray); */
+}
+
+.list > ul {
+	list-style-type: none;
+}
+.list > ul li {
+	margin-left: 0px;
+}
+.list > ul h2, .list > ul p {
+	margin: 0px;
+}
+.list > ul h2 {
+	font-size: var(--base-font-size);
+	margin-bottom: 4px;
 }
