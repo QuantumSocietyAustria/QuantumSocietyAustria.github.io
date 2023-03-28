@@ -8,4 +8,8 @@ menu:
         name: "Home"
 ---
 
-This is our new homepage!
+# Quantum Society Austria
+
+We are an inclusive quantum computing community for Austria.
+
+{{< contact >}}
