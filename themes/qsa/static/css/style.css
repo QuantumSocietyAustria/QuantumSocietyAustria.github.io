@@ -253,6 +253,7 @@ footer {
 }
 .list > ul li {
 	margin-left: 0px;
+	margin-bottom: 30px;
 }
 .list > ul h2, .list > ul p {
 	margin: 0px;
