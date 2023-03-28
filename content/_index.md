@@ -10,4 +10,6 @@ menu:
 
 # Quantum Society Austria
 
-This is our new homepage!
+We are an inclusive quantum computing community for Austria.
+
+{{< contact >}}
