@@ -12,7 +12,7 @@
 
             {{ if le $diff 86400 }}
             <!-- if event is not a multi-day event -->
-            <p><time>{{ $start | time.Format "1 January 2006, 15:00" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:00" }}</time>{{ end }}</p>
+            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:00" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:00" }}</time>{{ end }}</p>
             {{ else }}
             <!-- if event is a multi-day event -->
             <p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
