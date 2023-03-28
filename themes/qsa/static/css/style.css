@@ -1,9 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                                    Reset                                   */
-/* -------------------------------------------------------------------------- */
-
 * {
-	/* color: var(--color-txt); */
 	margin: 0px;
 	padding: 0px;
 }
@@ -108,9 +103,6 @@ body > * {
 	margin: auto;
 }
 
-h1, h2, h3, h4, p, ul, li {
-	/* color: var(--color-txt); */
-}
 h1 {
 	margin-bottom: 20px;
 }
@@ -134,9 +126,7 @@ li {
 }
 .home h1 {
 	font-size: 5em;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
- Helvetica, Arial, sans-serif,
- "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Helvetica, Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-weight: 800;
 	letter-spacing: -0.022em;
 	line-height: 135px;
@@ -147,7 +137,6 @@ li {
 	z-index: 10;
 }
 .home h1+p, h2 {
-	/* color: var(--color-txt); */
 	font-weight: 600;
 	font-size: 2.1em;
 	letter-spacing: -0.021em;
@@ -249,10 +238,8 @@ nav ul li {
 .contact li img {
 	width: 50%;
 }
-
 footer {
-	/* padding: 20px 50px; */
-	/* background-color: var(--color-gray); */
+	margin-top: 20px;
 }
 
 .list > ul {
