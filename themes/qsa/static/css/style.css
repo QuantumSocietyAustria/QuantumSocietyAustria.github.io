@@ -123,6 +123,13 @@ a {
 a:hover {
 	text-decoration: none;
 }
+a[href]:not(:where(
+  [href^="#"],
+  [href^="/"]:not([href^="//"]),
+  [href^=" /"]:not([href^="//"]),
+))::after {
+    content: "↗";
+}
 code {
 	font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
