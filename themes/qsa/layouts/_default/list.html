@@ -2,7 +2,7 @@
 <main role="main" class="list">
     <h1>{{ .Title }}</h1>
     <ul>
-        {{ range .Pages.ByDate }}
+        {{ range sort .Data.Pages ".Params.startDate" }}
         <li>
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             {{ $start := .Page.Params.startDate | time.AsTime }}
