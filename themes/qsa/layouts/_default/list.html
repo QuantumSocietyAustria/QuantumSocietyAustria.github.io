@@ -4,7 +4,13 @@
     <ul>
         {{ range .Pages.ByDate }}
         <li>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2>
+                {{ if .Params.link }}
+                <a href="{{ .Params.link }}">{{ .Title }}</a>
+                {{ else }}
+                {{ .Title }}
+                {{ end }}
+            </h2>
             {{ $start := .Page.Params.startDate | time.AsTime }}
             {{ $end := .Page.Params.endDate | time.AsTime }}
             {{ $diff := sub $end.Unix $start.Unix }}
