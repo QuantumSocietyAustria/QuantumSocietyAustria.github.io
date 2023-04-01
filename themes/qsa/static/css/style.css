@@ -130,6 +130,9 @@ a[href]:not(:where(
 ))::after {
     content: "↗";
 }
+.contact a::after {
+	content: none;
+}
 code {
 	font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
