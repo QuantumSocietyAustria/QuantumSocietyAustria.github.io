@@ -6,6 +6,7 @@ subtitle: "We are an inclusive quantum computing community for Austria."
 menu:
     nav:
         name: "Home"
+        weight: 1
 ---
 
 # Quantum Society Austria
