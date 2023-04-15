@@ -272,3 +272,13 @@ footer {
 	font-size: var(--base-font-size);
 	margin-bottom: 4px;
 }
+
+ul.old {
+	border-top: 1px solid GrayText;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+ul.old,
+ul.old a {
+	color: GrayText;
+}
