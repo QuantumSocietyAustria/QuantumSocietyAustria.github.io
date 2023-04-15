@@ -35,6 +35,38 @@
         {{ end }}
     </ul>
 
-    
+    <ul class="old">
+        {{ range sort .Data.Pages ".Params.startDate" }}
+
+        {{ $start := .Page.Params.startDate | time.AsTime }}
+        {{ $end := .Page.Params.endDate | time.AsTime }}
+        {{ $diff := sub $end.Unix $start.Unix }}
+        {{ $loc := .Page.Params.location }}
+
+        {{ if ge now.Unix $end.Unix }}
+        <li>
+            <h2>
+                {{ if .Params.link }}
+                <a href="{{ .Params.link }}">{{ .Title }}</a>
+                {{ else }}
+                {{ .Title }}
+                {{ end }}
+            </h2>
+
+            {{ if le $diff 86400 }}
+            <!-- if event is not a multi-day event -->
+            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:00" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:00" }}</time>{{ end }}</p>
+            {{ else }}
+            <!-- if event is a multi-day event -->
+            <p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
+            {{ end }}
+
+            {{ if $loc }}
+            <p>{{ $loc }}</p>
+            {{ end }}
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
 </main>
 {{ end }}
