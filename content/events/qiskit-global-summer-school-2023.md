@@ -6,5 +6,5 @@ startDate: 2023-07-17T15:00:00+02:00
 endDate: 2023-07-28T20:00:00+02:00
 location: "world wide"
 host: "IBM Quantum"
-link: "https://www.eventbrite.com/e/2023-qiskit-global-summer-school-theory-to-implementation-tickets-630149252377"
+link: "https://qiskit.org/events/summer-school-2023/"
 ---
