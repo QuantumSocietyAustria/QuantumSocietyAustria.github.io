@@ -1,7 +1,7 @@
 ---
 title: "Quantum Computing in DS & Gesture classification in smartphone web-app"
 date: 2023-06-06T12:56:55+02:00
-draft: true
+draft: false
 startDate: 2023-06-06T18:00:00+02:00
 endDate: 2023-06-06T22:00:00+02:00
 location: "Quellenstraße 51, Wien"
