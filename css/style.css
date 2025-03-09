@@ -1,192 +1,214 @@
 * {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
-	color-scheme: light dark;
+    color-scheme: light dark;
 
-	--base-font-size: 17pt;
+    --base-font-size: 17pt;
 
-	--gradient: linear-gradient(165deg, rgb(16.471% 88.627% 92.549%) 0%, rgb(16.46% 87.591% 92.566%) 6.25%, rgb(16.427% 84.478% 92.618%) 12.5%, rgb(16.372% 79.274% 92.703%) 18.75%, rgb(16.295% 71.956% 92.823%) 25%, rgb(16.196% 62.49% 92.977%) 31.25%, rgb(16.076% 50.836% 93.165%) 37.5%, rgb(15.934% 36.942% 93.386%) 43.75%, rgb(15.771% 20.749% 93.641%) 50%, rgb(28.984% 15.586% 93.93%) 56.25%, rgb(49.58% 15.381% 94.252%) 62.5%, rgb(72.665% 15.155% 94.606%) 68.75%, rgb(94.994% 14.908% 91.653%) 75%, rgb(95.413% 14.642% 64.136%) 81.25%, rgb(95.865% 14.356% 33.886%) 87.5%, rgb(96.348% 27.315% 14.05%) 93.75%, rgb(96.863% 62.745% 13.725%) 100% );
+    --gradient: linear-gradient(165deg, rgb(16.471% 88.627% 92.549%) 0%, rgb(16.46% 87.591% 92.566%) 6.25%, rgb(16.427% 84.478% 92.618%) 12.5%, rgb(16.372% 79.274% 92.703%) 18.75%, rgb(16.295% 71.956% 92.823%) 25%, rgb(16.196% 62.49% 92.977%) 31.25%, rgb(16.076% 50.836% 93.165%) 37.5%, rgb(15.934% 36.942% 93.386%) 43.75%, rgb(15.771% 20.749% 93.641%) 50%, rgb(28.984% 15.586% 93.93%) 56.25%, rgb(49.58% 15.381% 94.252%) 62.5%, rgb(72.665% 15.155% 94.606%) 68.75%, rgb(94.994% 14.908% 91.653%) 75%, rgb(95.413% 14.642% 64.136%) 81.25%, rgb(95.865% 14.356% 33.886%) 87.5%, rgb(96.348% 27.315% 14.05%) 93.75%, rgb(96.863% 62.745% 13.725%) 100%);
 
-	--txt-gradient: linear-gradient(165deg, #ff0090, #f6ff00, #ff0090, #00ddff, #6f00ff, #ff9500);
-	--txt-gradient-1: linear-gradient(165deg, #ff0090 0%, #f6ff00 100%);
-	--txt-gradient-2: linear-gradient(165deg, #ff0090 0%, #00ddff 100%);
-	--txt-gradient-3: linear-gradient(165deg, #6f00ff 0%, #ff9500 100%);
+    --txt-gradient: linear-gradient(165deg, #ff0090, #f6ff00, #ff0090, #00ddff, #6f00ff, #ff9500);
+    --txt-gradient-1: linear-gradient(165deg, #ff0090 0%, #f6ff00 100%);
+    --txt-gradient-2: linear-gradient(165deg, #ff0090 0%, #00ddff 100%);
+    --txt-gradient-3: linear-gradient(165deg, #6f00ff 0%, #ff9500 100%);
 
-	--orb-size: 35vh;
-	--orb-shadow-1:
-		inset 0 0 50px #fff,
-		inset 20px 0 80px #ff0090,
-		inset -20px 0 80px #f6ff00,
-		inset 20px 0 300px #ff0090,
-		inset -20px 0 300px #f6ff00,
-		0 0 50px #fff,
-		-10px 0 80px #ff0090,
-		10px 0 80px #f6ff00;
-	--orb-shadow-2:
-		inset 0 0 50px #fff,
-		inset 20px 0 80px #ff0090,
-		inset -20px 0 80px #00ddff,
-		inset 20px 0 300px #ff0090,
-		inset -20px 0 300px #00ddff,
-		0 0 50px #fff,
-		-10px 0 80px #ff0090,
-		10px 0 80px #00ddff;
-	--orb-shadow-3:
-		inset 0 0 50px #fff,
-		inset 20px 0 80px #6f00ff,
-		inset -20px 0 80px #ff9500,
-		inset 20px 0 300px #6f00ff,
-		inset -20px 0 300px #ff9500,
-		0 0 50px #fff,
-		-10px 0 80px #6f00ff,
-		10px 0 80px #ff9500;
+    --orb-size: 35vh;
+    --orb-shadow-1:
+        inset 0 0 50px #fff,
+        inset 20px 0 80px #ff0090,
+        inset -20px 0 80px #f6ff00,
+        inset 20px 0 300px #ff0090,
+        inset -20px 0 300px #f6ff00,
+        0 0 50px #fff,
+        -10px 0 80px #ff0090,
+        10px 0 80px #f6ff00;
+    --orb-shadow-2:
+        inset 0 0 50px #fff,
+        inset 20px 0 80px #ff0090,
+        inset -20px 0 80px #00ddff,
+        inset 20px 0 300px #ff0090,
+        inset -20px 0 300px #00ddff,
+        0 0 50px #fff,
+        -10px 0 80px #ff0090,
+        10px 0 80px #00ddff;
+    --orb-shadow-3:
+        inset 0 0 50px #fff,
+        inset 20px 0 80px #6f00ff,
+        inset -20px 0 80px #ff9500,
+        inset 20px 0 300px #6f00ff,
+        inset -20px 0 300px #ff9500,
+        0 0 50px #fff,
+        -10px 0 80px #6f00ff,
+        10px 0 80px #ff9500;
 
-	--box-shadow-1: 0 4px 10px #fff,
-		-5px 8px 20px #ff009090,
-		5px 8px 20px #f6ff0090;
-	--box-shadow-2: 0 4px 10px #fff,
-		-5px 8px 20px #ff009090,
-		5px 8px 20px #00ddff90;
-	--box-shadow-3: 0 4px 10px #fff,
-		-5px 8px 20px #6f00ff90,
-		5px 8px 20px #ff950090;
+    --box-shadow-1: 0 4px 10px #fff,
+        -5px 8px 20px #ff009090,
+        5px 8px 20px #f6ff0090;
+    --box-shadow-2: 0 4px 10px #fff,
+        -5px 8px 20px #ff009090,
+        5px 8px 20px #00ddff90;
+    --box-shadow-3: 0 4px 10px #fff,
+        -5px 8px 20px #6f00ff90,
+        5px 8px 20px #ff950090;
 
 }
 
 @media only screen and (max-width: 1400px) {
-	:root {
-		--base-font-size: 15pt;
-	}
-  }
+    :root {
+        --base-font-size: 15pt;
+    }
+}
+
 @media only screen and (max-width: 800px) {
-	:root {
-		--base-font-size: 12pt;
-	}
-  }
+    :root {
+        --base-font-size: 12pt;
+    }
+}
 
 
 @keyframes orb-color-change {
-	0% {
-		box-shadow: var(--orb-shadow-1);
-	}
-	50% {
-		box-shadow: var(--orb-shadow-2);
-	}
-	100% {
-		box-shadow: var(--orb-shadow-3);
-	}
+    0% {
+        box-shadow: var(--orb-shadow-1);
+    }
+
+    50% {
+        box-shadow: var(--orb-shadow-2);
+    }
+
+    100% {
+        box-shadow: var(--orb-shadow-3);
+    }
 }
 
 @keyframes txt-color-change {
-	0% {background-position: 0% 0%;}
-	100% {background-position: 0% 100%;}
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
 }
 
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Helvetica, Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: var(--base-font-size);
-	line-height: 1.5;
-	word-spacing: -10%;
-	padding: 50px;
-}
-.gradient::before {
-	content: "";
-	background: var(--gradient);
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 10px;
-	filter: blur(20px);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: var(--base-font-size);
+    line-height: 1.5;
+    word-spacing: -10%;
+    padding: 50px;
 }
 
-body > * {
-	max-width: 800px;
-	margin: auto;
+.gradient::before {
+    content: "";
+    background: var(--gradient);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    filter: blur(20px);
+}
+
+body>* {
+    max-width: 800px;
+    margin: auto;
 }
 
 h1 {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
-p, ul, ol {
-	margin-bottom: 15px;
+
+p,
+ul,
+ol {
+    margin-bottom: 15px;
 }
+
 a {
-	text-decoration: underline;
-	border-radius: 10px;
-	color: CanvasText;
+    text-decoration: underline;
+    border-radius: 10px;
+    color: CanvasText;
 }
+
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
-a[href]:not(:where(
-  [href^="#"],
-  [href^="/"]:not([href^="//"]),
-  [href^=" /"]:not([href^="//"]),
-))::after {
+
+a[href]:not(:where([href^="#"],
+        [href^="/"]:not([href^="//"]),
+        [href^=" /"]:not([href^="//"]),
+    ))::after {
     content: "↗";
 }
+
 .contact a::after {
-	content: none;
+    content: none;
 }
+
 code {
-	font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 }
 
 li {
-	margin-left: 50px;
+    margin-left: 50px;
 }
+
 .home h1 {
-	font-size: 5em;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Helvetica, Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-weight: 800;
-	letter-spacing: -0.022em;
-	line-height: 135px;
-	line-height: 0.92em;
-	margin-bottom: 5px;
-	padding-bottom: 20px;
-	text-align: center;
-	z-index: 10;
+    font-size: 5em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 800;
+    letter-spacing: -0.022em;
+    line-height: 135px;
+    line-height: 0.92em;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    z-index: 10;
 }
-.home h1+p, h2 {
-	font-weight: 600;
-	font-size: 2.1em;
-	letter-spacing: -0.021em;
-	line-height: 1.2em;
-	margin: .5em 0em .3em 0em;
+
+.home h1+p,
+h2 {
+    font-weight: 600;
+    font-size: 2.1em;
+    letter-spacing: -0.021em;
+    line-height: 1.2em;
+    margin: .5em 0em .3em 0em;
 }
+
 .home h1+p {
-	text-align: center;
-	margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
+
 nav {
-	width: 100%;
-	height: 60px;
-	border-radius: 50px;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
 }
 
 .home h1::before {
-	content: "";
-	margin: auto;
-	transition: filter .4s ease-in-out;
-	transition: box-shadow .4s ease-in-out;
-	border-radius: 50%;
-	box-shadow: var(--orb-shadow-1);
-	display: block;
-	width: var(--orb-size);
-	height: var(--orb-size);
-  	left: calc(50% - var(--orb-size)/2);
-	z-index: 1;
-	animation: orb-color-change 4000ms;
+    content: "";
+    margin: auto;
+    transition: filter .4s ease-in-out;
+    transition: box-shadow .4s ease-in-out;
+    border-radius: 50%;
+    box-shadow: var(--orb-shadow-1);
+    display: block;
+    width: var(--orb-size);
+    height: var(--orb-size);
+    left: calc(50% - var(--orb-size)/2);
+    z-index: 1;
+    animation: orb-color-change 4000ms;
     animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
-/* 
+
+/*
 42,226,236	-> #2ae2ec
 40,53,239 	-> #2835ef
 126,39,240 	-> #7e27f0
@@ -195,90 +217,109 @@ nav {
 */
 
 nav ul {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
-	gap: 30px;
-	width: 100%;
-	height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
 }
+
 nav ul li {
-	list-style: none;
-	letter-spacing: -0.014em;
-	line-height: 25px;
-	font-weight: 600;
-	text-transform: lowercase;
-	margin-left: 0px;
+    list-style: none;
+    letter-spacing: -0.014em;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin-left: 0px;
 }
 
 
 .contact {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	gap: 50px;
-	width: 100%;
-	padding: 40px 0px 45px 0px;
-	border-radius: 20px;
-	margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    width: 100%;
+    padding: 40px 0px 45px 0px;
+    border-radius: 20px;
+    margin: 50px 0px;
 }
+
 .contact li {
-	list-style: none;
-	margin: 0px;
-	padding: 20px;
-	border-radius: 15px;
-	transition: box-shadow .5s ease-in-out;
+    list-style: none;
+    width: 15%;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: box-shadow .5s ease-in-out;
 }
-.contact li:nth-child(3n+1):hover {box-shadow: var(--box-shadow-2);}
-.contact li:nth-child(3n+2):hover {box-shadow: var(--box-shadow-1);}
-.contact li:nth-child(3n+3):hover {box-shadow: var(--box-shadow-3);}
+
+.contact li:nth-child(3n+1):hover {
+    box-shadow: var(--box-shadow-2);
+}
+
+.contact li:nth-child(3n+2):hover {
+    box-shadow: var(--box-shadow-1);
+}
+
+.contact li:nth-child(3n+3):hover {
+    box-shadow: var(--box-shadow-3);
+}
+
 .contact li a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: var(--color-txt);
-	font-size: 1.5em;
-	font-weight: 500;
-	letter-spacing: 0px;
-	background-clip: initial;
-	-webkit-text-fill-color: initial;
-	background: none;
-	position: relative;
-	text-decoration: none;
-	top: 12px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: var(--color-txt);
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0px;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+    background: none;
+    position: relative;
+    text-decoration: none;
+    top: 12px;
 }
 
 .contact li img {
-	width: 50%;
-}
-footer {
-	margin-top: 20px;
+    width: 50%;
 }
 
-.list > ul {
-	list-style-type: none;
+footer {
+    margin-top: 20px;
 }
-.list > ul li {
-	margin-left: 0px;
-	margin-bottom: 30px;
+
+.list>ul {
+    list-style-type: none;
 }
-.list > ul h2, .list > ul p {
-	margin: 0px;
+
+.list>ul li {
+    margin-left: 0px;
+    margin-bottom: 30px;
 }
-.list > ul h2 {
-	font-size: var(--base-font-size);
-	margin-bottom: 4px;
+
+.list>ul h2,
+.list>ul p {
+    margin: 0px;
+}
+
+.list>ul h2 {
+    font-size: var(--base-font-size);
+    margin-bottom: 4px;
 }
 
 ul.old {
-	border-top: 1px solid GrayText;
-	padding-top: 50px;
-	margin-top: 50px;
+    border-top: 1px solid GrayText;
+    padding-top: 50px;
+    margin-top: 50px;
 }
+
 ul.old,
 ul.old a {
-	color: GrayText;
+    color: GrayText;
 }
