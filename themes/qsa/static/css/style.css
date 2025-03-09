@@ -160,8 +160,8 @@ li {
 .home h1 {
     font-size: 5em;
     font-weight: 800;
-    letter-spacing: -0.022em;
-    line-height: 0.92em;
+    letter-spacing: 0em;
+    line-height: 1.1em;
     margin-bottom: 5px;
     padding-bottom: 20px;
     text-align: center;
