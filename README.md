@@ -19,3 +19,9 @@ Everyone is welcomed to add events to the list. In order to keep the list clean,
 3. add the event via `hugo new events/your-event.md` (if you don't have hugo installed, just copy one of the past event Markdown files and make it your own)
 4. commit your changes
 5. create a pull request to merge your version with this repository
+
+## Todos
+
+- [ ] add page for job listings
+- [ ] add page for people list
+- [ ] add page for Quantum Computing players in Austria
