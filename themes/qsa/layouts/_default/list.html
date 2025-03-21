@@ -36,7 +36,7 @@
     </ul>
 
     <ul class="old">
-        {{ range sort .Data.Pages ".Params.startDate" }}
+        {{ range sort .Data.Pages ".Params.startDate" "desc" }}
 
         {{ $start := .Page.Params.startDate | time.AsTime }}
         {{ $end := .Page.Params.endDate | time.AsTime }}
