@@ -8,9 +8,14 @@
                     {{ .Page.Params.name }}
                 </h2>
                 {{ if .Page.Params.links }}
-                {{ range .Page.Params.links }}
-                    <a href="{{ . }}"></a>
-                {{ end }}
+                <p>Social links:</p>
+                <ul>
+                    {{ range .Page.Params.links }}
+                    <li>
+                        <a href="{{ . }}">{{ . }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
                 {{ end }}
 
                 {{ .Content }}
