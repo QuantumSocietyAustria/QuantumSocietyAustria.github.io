@@ -329,11 +329,19 @@ footer {
     margin-top: 20px;
 }
 
+.list hr {
+    height: 1px;
+    color: #ccc;
+    background: #ccc;
+    border: none;
+    margin: 10px 0px 20px 0px;
+}
+
 .list>ul {
     list-style-type: none;
 }
 
-.list>ul li {
+.list>ul>li {
     margin-left: 0px;
     margin-bottom: 30px;
 }

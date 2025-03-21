@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main role="main" class="list">
+    <h1>{{ .Title }}</h1>
+    <p>List of people in the Austrian Quantum Computing community. If you want to get listed here, either <a href="https://github.com/QuantumSocietyAustria/QuantumSocietyAustria.github.io">add yourself</a> or ask <a href="/imprint/">Nico Einsidler</a> to do so.</p>
+    <hr>
+    <ul>
+       {{ range .Data.Pages }}
+            <li>
+                <h2>
+                    {{ .Page.Params.name }}
+                </h2>
+                {{ .Content }}
+                {{ if .Page.Params.links }}
+                <p>Social links:</p>
+                <ul>
+                    {{ range $k, $v := .Page.Params.links }}
+                    <li>
+                        <a href="{{ $v }}">{{ $k }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
+       {{ end }}
+    </ul>
+</main>
+{{ end }}
