@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main role="main" class="list">
+    <h1>{{ .Title }}</h1>
+    <ul>
+       {{ range .Data.Pages }}
+            <li>
+                <h2>
+                    {{ .Page.Params.name }}
+                </h2>
+                {{ if .Page.Params.links }}
+                {{ range .Page.Params.links }}
+                    <a href="{{ . }}"></a>
+                {{ end }}
+                {{ end }}
+
+                {{ .Content }}
+            </li>
+       {{ end }}
+    </ul>
+</main>
+{{ end }}
