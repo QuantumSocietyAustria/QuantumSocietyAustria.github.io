@@ -28,7 +28,7 @@ If you want to join QSA, add yourself to the people section. Ideally, also join 
 2. add a new branch
 3. add a new person via `hugo new people/your-name.md` and fill out the information about yourself. Do not add people who's permission you don't have!
 4. commit and push your changes
-5. create a pull request to merge your version with this repositorie's main branch
+5. create a pull request to merge your version with this repository's main branch
 
 ## Todos
 
