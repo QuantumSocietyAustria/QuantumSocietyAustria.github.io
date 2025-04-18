@@ -8,7 +8,7 @@ institution = "Uni Wien"
 institutionURL = "https://quantum.univie.ac.at/"
 
 [links]
-linkedin = "https://quantum.univie.ac.at/"
+linkedin = "https://www.linkedin.com/in/valentin-stauber/"
 github = "https://github.com/Darkdragon84"
 mail = "mailto:stauber.valentin@gmail.com"
 +++
