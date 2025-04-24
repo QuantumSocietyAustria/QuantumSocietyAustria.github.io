@@ -165,6 +165,7 @@ p,
 ul,
 ol {
     margin-bottom: 15px;
+    margin-bottom: 1lh;
 }
 
 a {
@@ -280,6 +281,7 @@ nav ul li {
     gap: 50px;
     width: 100%;
     padding: 40px 0px 45px 0px;
+    padding: 1lh 0px 1lh 0px;
     border-radius: 20px;
     margin: 50px 0px;
 }
@@ -335,6 +337,7 @@ footer {
     background: #ccc;
     border: none;
     margin: 10px 0px 20px 0px;
+    margin: 1lh 0px 1lh 0px;
 }
 
 .list>ul {
@@ -344,6 +347,7 @@ footer {
 .list>ul>li {
     margin-left: 0px;
     margin-bottom: 30px;
+    margin-bottom: 1lh;
 }
 
 .list>ul h2,
