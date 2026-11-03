@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: Set custom domain
-        run: "touch ./public/CNMAME && echo 'quantum-society.at' > ./public/CNAME"
+        run: "echo 'quantum-society.at' > ./public/CNAME"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
