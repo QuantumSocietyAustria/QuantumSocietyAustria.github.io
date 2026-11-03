@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on Quantum Society Austria</title>
+    <link>http://localhost:1313/people/</link>
+    <description>Recent content in People on Quantum Society Austria</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Apr 2025 11:02:52 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/people/valentin-stauber/</link>
+      <pubDate>Tue, 15 Apr 2025 11:02:52 +0200</pubDate>
+      <guid>http://localhost:1313/people/valentin-stauber/</guid>
+      <description>Quantum Algorithm Developer working on architecture blueprints, operating systems and compilers for quantum computers at ParityQC. Valentin lives and works in Vienna. He hangs out at Impact Hub about once a week, usually Tuesdays. Drop by for a chat, he&amp;rsquo;ll buy you coffee.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/people/filippo-fratini/</link>
+      <pubDate>Sat, 22 Mar 2025 12:39:49 +0100</pubDate>
+      <guid>http://localhost:1313/people/filippo-fratini/</guid>
+      <description>Quant expert and technical lead of the Quantum Team at Erste Group Bank as well as lecturer of stochastics and simulation at FH des BFI.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/people/nico-einsidler/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:39 +0100</pubDate>
+      <guid>http://localhost:1313/people/nico-einsidler/</guid>
+      <description>IBM Quantum Client Delivery Lead working with companies such as E.ON, Crédit Mutuel or Erste Group. Founder of the Quantum Society Austria. Nico lives and works in Vienna.</description>
+    </item>
+  </channel>
+</rss>
