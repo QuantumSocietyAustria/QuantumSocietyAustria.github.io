@@ -1,5 +1,5 @@
 baseURL = 'https://quantum-society.at/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Quantum Society Austria'
 theme = 'qsa'
 sectionPagesMenu = "nav"

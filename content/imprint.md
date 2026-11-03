@@ -8,6 +8,6 @@ Somya Rathee, Alexandra Waldherr and Nico Einsidler are responsible for the cont
 
 We try our best to not track you on this site. However, it is hosted on GitHub. If you find any trackers, please contact us.
 
-Wagramer Straße 2A<br>
-1220 Vienna<br>
+Wagramer Straße 2A\
+1220 Vienna\
 Austria
