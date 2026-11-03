@@ -1,2 +1,5 @@
 # macOS stuff
 .DS_Store
+# Hugo build output
+/public/
+.hugo_build.lock
