@@ -19,9 +19,13 @@
                 {{ end }}
             </h2>
 
-            {{ if le $diff 86400 }}
+            {{ $sameDay := eq ($start | time.Format "2006-01-02") ($end | time.Format "2006-01-02") }}
+            {{ if and (not .Params.allDay) (le $diff 86400) }}
             <!-- if event is not a multi-day event -->
-            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:00" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:00" }}</time>{{ end }}</p>
+            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:04" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:04" }}</time>{{ end }}</p>
+            {{ else if $sameDay }}
+            <!-- all-day / unknown-time single-day event: date only -->
+            <p><time>{{ $start | time.Format ":date_long" }}</time></p>
             {{ else }}
             <!-- if event is a multi-day event -->
             <p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
@@ -53,9 +57,13 @@
                 {{ end }}
             </h2>
 
-            {{ if le $diff 86400 }}
+            {{ $sameDay := eq ($start | time.Format "2006-01-02") ($end | time.Format "2006-01-02") }}
+            {{ if and (not .Params.allDay) (le $diff 86400) }}
             <!-- if event is not a multi-day event -->
-            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:00" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:00" }}</time>{{ end }}</p>
+            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:04" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:04" }}</time>{{ end }}</p>
+            {{ else if $sameDay }}
+            <!-- all-day / unknown-time single-day event: date only -->
+            <p><time>{{ $start | time.Format ":date_long" }}</time></p>
             {{ else }}
             <!-- if event is a multi-day event -->
             <p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
