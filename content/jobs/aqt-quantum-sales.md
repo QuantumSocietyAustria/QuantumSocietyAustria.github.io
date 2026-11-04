@@ -5,6 +5,6 @@ draft: false
 company: "AQT"
 location: "Innsbruck, Austria"
 remote: false
-salary: "EUR 38,000+/year"
+salary: ""
 link: "https://aqt.eu/career/"
 ---
