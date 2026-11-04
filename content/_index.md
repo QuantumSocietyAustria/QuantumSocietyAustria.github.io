@@ -13,4 +13,6 @@ menu:
 
 We are an inclusive quantum computing community for Austria.
 
+{{< upcoming-events >}}
+
 {{< contact >}}
