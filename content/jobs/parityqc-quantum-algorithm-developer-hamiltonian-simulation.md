@@ -6,5 +6,5 @@ company: "ParityQC"
 location: "Innsbruck, Austria"
 remote: false
 salary: ""
-link: "https://de.linkedin.com/jobs/view/quantum-algorithm-developer-%E2%80%93-hamiltonian-simulation-at-parityqc-4474466123"
+link: "https://parityqc.com/career"
 ---

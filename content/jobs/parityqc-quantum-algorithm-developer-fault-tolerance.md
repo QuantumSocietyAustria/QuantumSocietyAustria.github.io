@@ -6,5 +6,5 @@ company: "ParityQC"
 location: "Innsbruck, Austria"
 remote: false
 salary: ""
-link: "https://at.linkedin.com/jobs/view/quantum-algorithm-developer-%E2%80%93-fault-tolerance-at-parityqc-4474454550"
+link: "https://parityqc.com/career"
 ---
