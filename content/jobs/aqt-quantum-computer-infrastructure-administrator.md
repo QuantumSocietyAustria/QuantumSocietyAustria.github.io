@@ -7,5 +7,4 @@ location: "Innsbruck, Austria"
 remote: false
 salary: ""
 link: "https://www.aqt.eu/career/"
-# on-site or hybrid; posting date from an aggregator reading AQT's careers feed
 ---
