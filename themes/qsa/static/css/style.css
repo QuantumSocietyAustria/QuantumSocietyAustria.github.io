@@ -360,6 +360,11 @@ footer {
     margin-bottom: 4px;
 }
 
+.list>ul .meta {
+    font-size: 0.85em;
+    opacity: 0.85;
+}
+
 ul.old {
     border-top: 1px solid GrayText;
     padding-top: 50px;
