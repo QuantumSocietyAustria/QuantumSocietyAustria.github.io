@@ -33,5 +33,5 @@ If you want to join QSA, add yourself to the people section. Ideally, also join 
 ## Todos
 
 - [ ] add page for job listings
-- [ ] add page for people list
+- [x] add page for people list
 - [ ] add page for Quantum Computing players in Austria
