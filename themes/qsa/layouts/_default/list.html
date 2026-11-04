@@ -6,7 +6,6 @@
 
         {{ $start := .Page.Params.startDate | time.AsTime }}
         {{ $end := .Page.Params.endDate | time.AsTime }}
-        {{ $diff := sub $end.Unix $start.Unix }}
         {{ $loc := .Page.Params.location }}
 
         {{ if le now.Unix $end.Unix }}
@@ -19,17 +18,7 @@
                 {{ end }}
             </h2>
 
-            {{ $sameDay := eq ($start | time.Format "2006-01-02") ($end | time.Format "2006-01-02") }}
-            {{ if and (not .Params.allDay) (le $diff 86400) }}
-            <!-- if event is not a multi-day event -->
-            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:04" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:04" }}</time>{{ end }}</p>
-            {{ else if $sameDay }}
-            <!-- all-day / unknown-time single-day event: date only -->
-            <p><time>{{ $start | time.Format ":date_long" }}</time></p>
-            {{ else }}
-            <!-- if event is a multi-day event -->
-            <p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
-            {{ end }}
+            {{ partial "event-datetime" . }}
 
             {{ if $loc }}
             <p>{{ $loc }}</p>
@@ -44,7 +33,6 @@
 
         {{ $start := .Page.Params.startDate | time.AsTime }}
         {{ $end := .Page.Params.endDate | time.AsTime }}
-        {{ $diff := sub $end.Unix $start.Unix }}
         {{ $loc := .Page.Params.location }}
 
         {{ if ge now.Unix $end.Unix }}
@@ -57,17 +45,7 @@
                 {{ end }}
             </h2>
 
-            {{ $sameDay := eq ($start | time.Format "2006-01-02") ($end | time.Format "2006-01-02") }}
-            {{ if and (not .Params.allDay) (le $diff 86400) }}
-            <!-- if event is not a multi-day event -->
-            <p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:04" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:04" }}</time>{{ end }}</p>
-            {{ else if $sameDay }}
-            <!-- all-day / unknown-time single-day event: date only -->
-            <p><time>{{ $start | time.Format ":date_long" }}</time></p>
-            {{ else }}
-            <!-- if event is a multi-day event -->
-            <p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
-            {{ end }}
+            {{ partial "event-datetime" . }}
 
             {{ if $loc }}
             <p>{{ $loc }}</p>

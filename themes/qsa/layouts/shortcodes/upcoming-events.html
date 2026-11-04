@@ -1,0 +1,34 @@
+{{ $limit := .Get "limit" | default 3 | int }}
+
+{{ $upcoming := slice }}
+{{ range where site.RegularPages "Section" "events" }}
+    {{ $end := .Params.endDate | default .Params.startDate | time.AsTime }}
+    {{ if ge $end.Unix now.Unix }}
+        {{ $upcoming = $upcoming | append . }}
+    {{ end }}
+{{ end }}
+{{ $shown := first $limit (sort $upcoming ".Params.startDate") }}
+
+{{ if gt (len $shown) 0 }}
+<div class="upcoming-events">
+    <h2>Upcoming Events</h2>
+    <ul>
+        {{ range $shown }}
+        <li>
+            <h3>
+                {{ if .Params.link }}
+                <a href="{{ .Params.link }}">{{ .Title }}</a>
+                {{ else }}
+                {{ .Title }}
+                {{ end }}
+            </h3>
+            {{ partial "event-datetime" . }}
+            {{ with .Params.location }}
+            <p class="location">{{ . }}</p>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    <p class="more"><a href="{{ site.BaseURL }}events/">All events</a></p>
+</div>
+{{ end }}

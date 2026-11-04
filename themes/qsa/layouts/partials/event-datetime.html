@@ -1,0 +1,12 @@
+{{ $start := .Params.startDate | time.AsTime }}
+{{ $end := .Params.endDate | default .Params.startDate | time.AsTime }}
+{{ $diff := sub $end.Unix $start.Unix }}
+{{ $sameDay := eq ($start.Format "2006-01-02") ($end.Format "2006-01-02") }}
+
+{{ if and (not .Params.allDay) (le $diff 86400) }}
+<p><time>{{ $start | time.Format ":date_long" }}, from {{ $start | time.Format "15:04" }}</time>{{ if $end }} – <time>{{ $end | time.Format "15:04" }}</time>{{ end }}</p>
+{{ else if $sameDay }}
+<p><time>{{ $start | time.Format ":date_long" }}</time></p>
+{{ else }}
+<p><time>{{ $start | time.Format ":date_long" }}</time>{{ if $end }} – <time>{{ $end | time.Format ":date_long" }}</time>{{ end }}</p>
+{{ end }}
