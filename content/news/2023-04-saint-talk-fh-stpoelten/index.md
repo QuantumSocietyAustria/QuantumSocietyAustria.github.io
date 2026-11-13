@@ -10,6 +10,8 @@ cover: "images/saint_12.jpg"
 
 In April 2023, Quantum Society Austria made a significant contribution to the Social Artificial Intelligence Night at FH St. Pölten. They presented on the topic of Quantum Machine Learning (QML), a field with immense potential and wide-ranging applications. The talk focused on how QML could revolutionize sectors such as healthcare, finance, and cybersecurity, sparking interest among the diverse audience of students and industry leaders.
 
+![SAINT poster](images/saint_poster.jpg)
+
 ![Somya Rathee at SAINT](images/saint_12.jpg)
 
 ## Quantum Machine Learning: A Future of Possibilities
