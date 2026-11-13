@@ -6,8 +6,6 @@ description: "At QCIDays Vienna 2024, QSA delivered a talk on collaboration betw
 cover: "images/landing.jpg"
 ---
 
-# QCI-CAT: Connecting Quantum Research, Industry, and Society
-
 From January 24th to 26th, QCIDays Vienna 2024 was held at the Federation of Austrian Industries, marking an important milestone in Austria's quantum journey. Organized under the QCI-CAT research project, led by the Austrian Institute of Technology (AIT) and its consortium, the three-day event brought together leading figures from research, startups, academia, and industry. It provided a platform for collaboration, exchange of ideas, and discussions about the future of quantum communication infrastructures in Europe. Quantum Society Austria was proud to participate and contribute to the growing momentum of Austria's quantum ecosystem.
 
 ![QCIDays Vienna 2024](images/conf1.jpg)

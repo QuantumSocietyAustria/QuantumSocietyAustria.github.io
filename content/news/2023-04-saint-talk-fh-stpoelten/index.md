@@ -1,12 +1,10 @@
 ---
-title: "Quantum Machine Learning Talk at SAINT, FH St. Pölten"
+title: "Social Artificial Intelligence Night at FH St. Pölten"
 date: 2023-04-01T00:00:00+02:00
 draft: false
 description: "QSA's founder Somya Rathee delivered an informative talk on quantum machine learning at the Social Artificial Intelligence Night at FH St. Pölten."
 cover: "images/saint_12.jpg"
 ---
-
-# Social Artificial Intelligence Night at FH St. Pölten
 
 In April 2023, Quantum Society Austria made a significant contribution to the Social Artificial Intelligence Night at FH St. Pölten. They presented on the topic of Quantum Machine Learning (QML), a field with immense potential and wide-ranging applications. The talk focused on how QML could revolutionize sectors such as healthcare, finance, and cybersecurity, sparking interest among the diverse audience of students and industry leaders.
 

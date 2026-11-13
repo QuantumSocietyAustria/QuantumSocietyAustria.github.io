@@ -1,12 +1,10 @@
 ---
-title: "Quantum Fall Fest 2022: Our first event"
+title: "Quantum Fall Fest 2022"
 date: 2022-11-26T00:00:00+01:00
 draft: false
 description: "On November 26, 2022, we hosted our first Quantum Fall Fest, an event that was nothing short of QUANTASTIC! Over 70 participants joined us."
 cover: "images/qff22.jpeg"
 ---
-
-# Quantum Fall Fest 2022: Our first event 🥳 🎉
 
 On November 26, 2022, we hosted our first Quantum Fall Fest, an event that was nothing short of QUANTASTIC! This event, inspired by IBM's Qiskit Fall Fest, was designed to give students in science and technology a glimpse into the exciting world of quantum computing. Over 70 participants joined us on this journey.
 
@@ -22,9 +20,9 @@ The event was marked by insightful presentations from distinguished speakers who
 
 ![Quantum Fall Fest 2022](images/event36.jpg)
 
-**Nico Einsidler**, an esteemed physicist, enlightened us about Quantum Computing Architecture and the current developments in IBM Quantum.
+**Nico Einsidler**, a physicist, enlightened us about Quantum Computing Architecture and the current developments at IBM Quantum.
 
-**Dr Lukas Mairhofer**, a professor at Fachhochschule Technikum Wien, gave us a glimpse into the job industry in Quantum computing in Austria and Europe.
+**Dr. Lukas Mairhofer**, a professor at Fachhochschule Technikum Wien, gave us a glimpse into the job industry in Quantum computing in Austria and Europe.
 
 ![Lukas Mairhofer's talk](images/lukas.jpg)
 

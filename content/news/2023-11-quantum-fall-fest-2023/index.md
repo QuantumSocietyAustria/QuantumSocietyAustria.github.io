@@ -6,8 +6,6 @@ description: "Over 80 bright minds, a blend of students and professionals, conve
 cover: "images/qff.jpeg"
 ---
 
-# Quantum Fall Fest 2023: Unveiling Quantum Horizons
-
 Quantum Fall Fest 2023, organized by Quantum Society Austria, held in TU Vienna on the 11th of November, was a resounding success, bringing together over 80 enthusiastic participants, including students and professionals, to explore the latest advancements in Quantum Computing. The event was a testament to the growing interest in this cutting-edge field and served as a platform for knowledge sharing and networking.
 
 ![Quantum Fall Fest 2023 poster](images/poster.jpg)

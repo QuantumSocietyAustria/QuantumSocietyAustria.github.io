@@ -1,12 +1,10 @@
 ---
-title: "Talk at ADV CyberXChange Conference"
+title: "ADV Talk Quantum Machine Learning for Cyberspace"
 date: 2023-09-05T00:00:00+02:00
 draft: false
 description: "How can Quantum Machine Learning revolutionize the Cyberspace? That's what Somya Rathee talked about at the ADV-CyberXChange Conference."
 cover: "images/adv1.jpeg"
 ---
-
-# ADV Talk - Quantum Machine Learning for Cyberspace
 
 In the rapidly evolving digital landscape, the Austrian Digital Value Conference stands as a beacon of innovation and progress. This event brings together experts from various fields, fostering dialogue and collaboration in the pursuit of digital excellence. One of the highlights of the recent conference was the presentation by Quantum Society Austria. They delved into the fascinating world of Quantum Machine Learning in Cyberspace, sparking interest and curiosity among the attendees. This article provides an overview of the presentation and its impact on the audience, shedding light on the potential of quantum technology in our digital future. Let's delve into the details.
 

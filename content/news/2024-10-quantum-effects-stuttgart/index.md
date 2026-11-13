@@ -6,8 +6,6 @@ description: "Somya Rathee joined the panel \"Let's get (Quantum) Physical! How 
 cover: "images/Overview.jpg"
 ---
 
-# Quantum Effects Stuttgart, Germany
-
 Somya Rathee recently attended the Quantum Effects event in Stuttgart, where she participated in a panel discussion titled "Let's get (Quantum) Physical! How Quantum Tech is Empowering Diverse Leadership and Workforce," moderated by Dr. Stefan Seegerer. She was joined by esteemed panelists: Esperanza Cuenca Gómez, Developer Relations Manager for Quantum Computing at NVIDIA; Dr. Marta Pascual Estarellas, CEO of Qilimanjaro Quantum Tech; and Dr. Katrin Kobe, CEO of Bosch Quantum Sensing. Together, they discussed how to build a more inclusive and diverse leadership environment within the quantum computing field.
 
 ![Panel at Quantum Effects Stuttgart](images/Overview.jpg)
