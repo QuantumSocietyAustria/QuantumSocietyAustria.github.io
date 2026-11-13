@@ -8,65 +8,80 @@
 
     --base-font-size: 17pt;
 
-    --gradient: linear-gradient(165deg, rgb(16.471% 88.627% 92.549%) 0%, rgb(16.46% 87.591% 92.566%) 6.25%, rgb(16.427% 84.478% 92.618%) 12.5%, rgb(16.372% 79.274% 92.703%) 18.75%, rgb(16.295% 71.956% 92.823%) 25%, rgb(16.196% 62.49% 92.977%) 31.25%, rgb(16.076% 50.836% 93.165%) 37.5%, rgb(15.934% 36.942% 93.386%) 43.75%, rgb(15.771% 20.749% 93.641%) 50%, rgb(28.984% 15.586% 93.93%) 56.25%, rgb(49.58% 15.381% 94.252%) 62.5%, rgb(72.665% 15.155% 94.606%) 68.75%, rgb(94.994% 14.908% 91.653%) 75%, rgb(95.413% 14.642% 64.136%) 81.25%, rgb(95.865% 14.356% 33.886%) 87.5%, rgb(96.348% 27.315% 14.05%) 93.75%, rgb(96.863% 62.745% 13.725%) 100%);
+    --gradient: linear-gradient(
+        165deg,
+        rgb(16.471% 88.627% 92.549%) 0%,
+        rgb(16.46% 87.591% 92.566%) 6.25%,
+        rgb(16.427% 84.478% 92.618%) 12.5%,
+        rgb(16.372% 79.274% 92.703%) 18.75%,
+        rgb(16.295% 71.956% 92.823%) 25%,
+        rgb(16.196% 62.49% 92.977%) 31.25%,
+        rgb(16.076% 50.836% 93.165%) 37.5%,
+        rgb(15.934% 36.942% 93.386%) 43.75%,
+        rgb(15.771% 20.749% 93.641%) 50%,
+        rgb(28.984% 15.586% 93.93%) 56.25%,
+        rgb(49.58% 15.381% 94.252%) 62.5%,
+        rgb(72.665% 15.155% 94.606%) 68.75%,
+        rgb(94.994% 14.908% 91.653%) 75%,
+        rgb(95.413% 14.642% 64.136%) 81.25%,
+        rgb(95.865% 14.356% 33.886%) 87.5%,
+        rgb(96.348% 27.315% 14.05%) 93.75%,
+        rgb(96.863% 62.745% 13.725%) 100%
+    );
 
-    --txt-gradient: linear-gradient(165deg, #ff0090, #f6ff00, #ff0090, #00ddff, #6f00ff, #ff9500);
+    --txt-gradient: linear-gradient(
+        165deg,
+        #ff0090,
+        #f6ff00,
+        #ff0090,
+        #00ddff,
+        #6f00ff,
+        #ff9500
+    );
     --txt-gradient-1: linear-gradient(165deg, #ff0090 0%, #f6ff00 100%);
     --txt-gradient-2: linear-gradient(165deg, #ff0090 0%, #00ddff 100%);
     --txt-gradient-3: linear-gradient(165deg, #6f00ff 0%, #ff9500 100%);
 
     --orb-size: 35vh;
     --orb-shadow-1:
-        inset 0 0 50px #fff,
-        inset 20px 0 80px #ff0090,
-        inset -20px 0 80px #f6ff00,
-        inset 20px 0 300px #ff0090,
-        inset -20px 0 300px #f6ff00,
-        0 0 50px #fff,
-        -10px 0 80px #ff0090,
+        inset 0 0 50px #fff, inset 20px 0 80px #ff0090,
+        inset -20px 0 80px #f6ff00, inset 20px 0 300px #ff0090,
+        inset -20px 0 300px #f6ff00, 0 0 50px #fff, -10px 0 80px #ff0090,
         10px 0 80px #f6ff00;
     --orb-shadow-2:
-        inset 0 0 50px #fff,
-        inset 20px 0 80px #ff0090,
-        inset -20px 0 80px #00ddff,
-        inset 20px 0 300px #ff0090,
-        inset -20px 0 300px #00ddff,
-        0 0 50px #fff,
-        -10px 0 80px #ff0090,
+        inset 0 0 50px #fff, inset 20px 0 80px #ff0090,
+        inset -20px 0 80px #00ddff, inset 20px 0 300px #ff0090,
+        inset -20px 0 300px #00ddff, 0 0 50px #fff, -10px 0 80px #ff0090,
         10px 0 80px #00ddff;
     --orb-shadow-3:
-        inset 0 0 50px #fff,
-        inset 20px 0 80px #6f00ff,
-        inset -20px 0 80px #ff9500,
-        inset 20px 0 300px #6f00ff,
-        inset -20px 0 300px #ff9500,
-        0 0 50px #fff,
-        -10px 0 80px #6f00ff,
+        inset 0 0 50px #fff, inset 20px 0 80px #6f00ff,
+        inset -20px 0 80px #ff9500, inset 20px 0 300px #6f00ff,
+        inset -20px 0 300px #ff9500, 0 0 50px #fff, -10px 0 80px #6f00ff,
         10px 0 80px #ff9500;
 
-    --box-shadow-1: 0 0 12px #fff,
-        -6px 0 24px #ff009090,
-        6px 0 24px #f6ff0090;
-    --box-shadow-2: 0 0 12px #fff,
-        -6px 0 24px #ff009090,
-        6px 0 24px #00ddff90;
-    --box-shadow-3: 0 0 12px #fff,
-        -6px 0 24px #6f00ff90,
-        6px 0 24px #ff950090;
-
+    --box-shadow-1: 0 0 12px #fff, -6px 0 24px #ff009090, 6px 0 24px #f6ff0090;
+    --box-shadow-2: 0 0 12px #fff, -6px 0 24px #ff009090, 6px 0 24px #00ddff90;
+    --box-shadow-3: 0 0 12px #fff, -6px 0 24px #6f00ff90, 6px 0 24px #ff950090;
 }
 
 .home h1 {
     font-size: 5em;
 }
 
-.home h1+p,
-h2 {
+h1 {
+    font-size: calc(var(--base-font-size) * 2);
+}
+
+.home h1 + p {
     font-size: 2em;
 }
 
-.contact li a {
-    font-size: 1.8em;
+h2 {
+    font-size: calc(var(--base-font-size) * 1.5);
+}
+
+h3 {
+    font-size: var(--base-font-size);
 }
 
 @media only screen and (max-width: 1400px) {
@@ -78,13 +93,8 @@ h2 {
         font-size: 4em;
     }
 
-    .home h1+p,
-    h2 {
+    .home h1 + p {
         font-size: 2em;
-    }
-
-    .contact li a {
-        font-size: 1.2em;
     }
 }
 
@@ -97,16 +107,10 @@ h2 {
         font-size: 3.2em;
     }
 
-    .home h1+p,
-    h2 {
+    .home h1 + p {
         font-size: 1.5em;
     }
-
-    .contact li a {
-        font-size: 1em;
-    }
 }
-
 
 @keyframes orb-color-change {
     0% {
@@ -132,9 +136,10 @@ h2 {
     }
 }
 
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: var(--base-font-size);
     line-height: 1.5;
     word-spacing: 0.05em;
@@ -152,7 +157,7 @@ body {
     filter: blur(20px);
 }
 
-body>* {
+body > * {
     max-width: 800px;
     margin: auto;
 }
@@ -178,10 +183,14 @@ a:hover {
     text-decoration: none;
 }
 
-a[href]:not(:where([href^="#"],
-        [href^="/"]:not([href^="//"]),
-        [href^=" /"]:not([href^="//"]),
-    ))::after {
+a[href]:not(
+        :where(
+            [href^="#"],
+            [href^="/"]:not([href^="//"]),
+            [href^=" /"]:not([href^="//"]),
+
+        )
+    )::after {
     content: "↗";
 }
 
@@ -190,7 +199,14 @@ a[href]:not(:where([href^="#"],
 }
 
 code {
-    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    font-family:
+        ui-monospace,
+        SFMono-Regular,
+        SF Mono,
+        Menlo,
+        Consolas,
+        Liberation Mono,
+        monospace;
 }
 
 li {
@@ -207,16 +223,16 @@ li {
     z-index: 10;
 }
 
-.home h1+p,
+.home h1 + p,
 h2 {
     font-weight: 600;
     letter-spacing: 0em;
     line-height: 1.25em;
-    word-spacing: .02em;
-    margin: .5em 0em .3em 0em;
+    word-spacing: 0.02em;
+    margin: 0.5em 0em 0.3em 0em;
 }
 
-.home h1+p {
+.home h1 + p {
     text-align: center;
     margin-bottom: 40px;
 }
@@ -230,14 +246,14 @@ nav {
 .home h1::before {
     content: "";
     margin: auto;
-    transition: filter .4s ease-in-out;
-    transition: box-shadow .4s ease-in-out;
+    transition: filter 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
     border-radius: 50%;
     box-shadow: var(--orb-shadow-1);
     display: block;
     width: var(--orb-size);
     height: var(--orb-size);
-    left: calc(50% - var(--orb-size)/2);
+    left: calc(50% - var(--orb-size) / 2);
     z-index: 1;
     animation: orb-color-change 4000ms;
     animation-timing-function: linear;
@@ -273,7 +289,6 @@ nav ul li {
     margin-left: 0px;
 }
 
-
 .contact {
     display: flex;
     justify-content: center;
@@ -292,18 +307,18 @@ nav ul li {
     margin: 0px;
     padding: 5px 10px 30px 10px;
     border-radius: 15px;
-    transition: box-shadow .5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
-.contact li:nth-child(3n+1):hover {
+.contact li:nth-child(3n + 1):hover {
     box-shadow: var(--box-shadow-2);
 }
 
-.contact li:nth-child(3n+2):hover {
+.contact li:nth-child(3n + 2):hover {
     box-shadow: var(--box-shadow-1);
 }
 
-.contact li:nth-child(3n+3):hover {
+.contact li:nth-child(3n + 3):hover {
     box-shadow: var(--box-shadow-3);
 }
 
@@ -340,28 +355,27 @@ footer {
     margin: 1lh 0px 1lh 0px;
 }
 
-.list>ul {
+.list > ul {
     list-style-type: none;
 }
 
-.list>ul>li {
+.list > ul > li {
     margin-left: 0px;
-    margin-bottom: 30px;
-    margin-bottom: 1lh;
+    margin-bottom: 1.5lh;
 }
 
-.list>ul h2,
-.list>ul p {
+.list > ul h2,
+.list > ul p {
     margin: 0px;
 }
 
-.list>ul h2 {
+.list > ul h2 {
     font-size: var(--base-font-size);
     margin-bottom: 4px;
 }
 
-.list>ul .meta {
-    font-size: 0.85em;
+.list > ul .meta {
+    font-size: calc(var(--base-font-size) * 0.85);
     opacity: 0.85;
 }
 
@@ -376,7 +390,8 @@ ul.old a {
     color: GrayText;
 }
 
-.upcoming-events {
+.upcoming-events,
+.latest-news {
     width: 100%;
     margin: 0 auto 40px auto;
     padding: 25px 30px;
@@ -390,7 +405,8 @@ ul.old a {
 }
 
 @keyframes upcoming-events-glow {
-    0%, 100% {
+    0%,
+    100% {
         box-shadow: var(--box-shadow-1);
     }
 
@@ -404,37 +420,42 @@ ul.old a {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .upcoming-events {
+    .upcoming-events,
+    .latest-news {
         animation: none;
         box-shadow: var(--box-shadow-1);
     }
 }
 
-.upcoming-events h2 {
-    margin-top: 0;
+.upcoming-events h2,
+.latest-news h2 {
+    margin: 0 0 1.5lh 0;
 }
 
-.upcoming-events ul {
+.upcoming-events ul,
+.latest-news ul {
     list-style: none;
-    margin-bottom: 15px;
+    margin: 0 0 1lh 0;
+}
+
+.upcoming-events li,
+.latest-news li {
+    margin-left: 0;
     margin-bottom: 1lh;
 }
 
-.upcoming-events li {
-    margin-left: 0;
-    margin-bottom: 20px;
-}
-
-.upcoming-events li:last-child {
+.upcoming-events li:last-child,
+.latest-news li:last-child {
     margin-bottom: 0;
 }
 
-.upcoming-events h3 {
-    font-size: 1.15em;
-    margin: 0 0 2px 0;
+.upcoming-events h3,
+.latest-news h3 {
+    margin: 0;
 }
 
-.upcoming-events p {
+.upcoming-events p,
+.latest-news p {
     margin: 0;
 }
 
@@ -442,6 +463,79 @@ ul.old a {
     opacity: 0.8;
 }
 
-.upcoming-events .more {
+.upcoming-events .more,
+.latest-news .more {
     text-align: right;
+}
+
+.news > ul > li {
+    display: flex;
+    gap: 20px;
+}
+
+.news > ul > li .text {
+    flex: 1;
+    min-width: 0;
+}
+
+.news .cover {
+    flex: 0 0 33.333%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.news .cover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single img {
+    max-width: 100%;
+    height: auto;
+}
+
+.latest-news .meta {
+    font-size: calc(var(--base-font-size) * 0.85);
+    opacity: 0.85;
+}
+
+.single .byline {
+    opacity: 0.85;
+    margin: -10px 0 25px 0;
+}
+
+.note {
+    margin: 25px 0 0 0;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.12);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-sizing: border-box;
+    animation: upcoming-events-glow 9s ease-in-out infinite;
+}
+
+.note p,
+.note .note-title {
+    margin: 0 0 6px 0;
+}
+
+.note p:last-child {
+    margin-bottom: 0;
+}
+
+.note .note-title {
+    font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .note {
+        animation: none;
+        box-shadow: var(--box-shadow-1);
+    }
 }

@@ -1,0 +1,7 @@
+{{ $kind := .Get "kind" | default "info" }}
+<aside class="note note--{{ $kind }}">
+	{{- with .Get "title" }}
+	<p class="note-title">{{ . }}</p>
+	{{- end }}
+	{{ .Inner | markdownify }}
+</aside>

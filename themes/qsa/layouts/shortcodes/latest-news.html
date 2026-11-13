@@ -1,0 +1,26 @@
+{{ $limit := .Get "limit" | default 3 | int }}
+{{ $latest := first $limit (sort (where site.RegularPages "Section" "news") ".Date" "desc") }}
+
+{{ if gt (len $latest) 0 }}
+<div class="latest-news">
+    <h2>Latest News</h2>
+    <ul>
+        {{ range $latest }}
+        <li>
+            <h3>
+                {{ if .Params.link }}
+                <a href="{{ .Params.link }}">{{ .Title }}</a>
+                {{ else }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ end }}
+            </h3>
+            <p class="meta">{{ .Date | time.Format ":date_long" }}</p>
+            {{ with .Description }}
+            <p>{{ . }}</p>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    <p class="more"><a href="{{ site.BaseURL }}news/">All news</a></p>
+</div>
+{{ end }}
