@@ -68,13 +68,20 @@
     font-size: 5em;
 }
 
-.home h1 + p,
-h2 {
+h1 {
+    font-size: calc(var(--base-font-size) * 2);
+}
+
+.home h1 + p {
     font-size: 2em;
 }
 
-.contact li a {
-    font-size: 1.8em;
+h2 {
+    font-size: calc(var(--base-font-size) * 1.5);
+}
+
+h3 {
+    font-size: var(--base-font-size);
 }
 
 @media only screen and (max-width: 1400px) {
@@ -86,13 +93,8 @@ h2 {
         font-size: 4em;
     }
 
-    .home h1 + p,
-    h2 {
+    .home h1 + p {
         font-size: 2em;
-    }
-
-    .contact li a {
-        font-size: 1.2em;
     }
 }
 
@@ -105,13 +107,8 @@ h2 {
         font-size: 3.2em;
     }
 
-    .home h1 + p,
-    h2 {
+    .home h1 + p {
         font-size: 1.5em;
-    }
-
-    .contact li a {
-        font-size: 1em;
     }
 }
 
@@ -373,12 +370,11 @@ footer {
 }
 
 .list > ul h2 {
-    font-size: var(--base-font-size);
     margin-bottom: 4px;
 }
 
 .list > ul .meta {
-    font-size: 0.85em;
+    font-size: calc(var(--base-font-size) * 0.85);
     opacity: 0.85;
 }
 
@@ -432,7 +428,6 @@ ul.old a {
 
 .upcoming-events h2,
 .latest-news h2 {
-    font-size: var(--base-font-size);
     margin: 0 0 1.5lh 0;
 }
 
@@ -455,7 +450,6 @@ ul.old a {
 
 .upcoming-events h3,
 .latest-news h3 {
-    font-size: 1.15em;
     margin: 0;
 }
 
@@ -504,7 +498,7 @@ ul.old a {
 }
 
 .latest-news .meta {
-    font-size: 0.85em;
+    font-size: calc(var(--base-font-size) * 0.85);
     opacity: 0.85;
 }
 
@@ -516,7 +510,6 @@ ul.old a {
 .note {
     margin: 25px 0 0 0;
     padding: 12px 16px;
-    font-size: 0.9em;
     background: rgba(255, 255, 255, 0.12);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
