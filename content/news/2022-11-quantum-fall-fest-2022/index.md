@@ -80,3 +80,5 @@ Special thanks to Dr Vincenzo De Maio and colleagues Jalal El-Youssef and Mira D
 ## Social Media
 
 View more posts and reactions to this event on [LinkedIn](https://www.linkedin.com/company/quantum-society-austria/) and [Instagram](https://www.instagram.com/quantumsocietyaustria/).
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/event_qff22.html) and has been migrated here.{{< /note >}}

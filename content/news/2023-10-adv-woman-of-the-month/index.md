@@ -10,3 +10,5 @@ link: "https://www.adv.at/quantencomputing-eine-18-jaehrige-gestaltet-die-it-zuk
 QSA's founder, Somya Rathee, was honored as the Woman-of-the-Month of ADV (Arbeitsgemeinschaft Datenverarbeitung), celebrating her outstanding contributions and leadership in the community! Congratulations!
 
 Read the full article on the ADV website: [Quantencomputing: Eine 18-Jährige gestaltet die IT-Zukunft mit](https://www.adv.at/quantencomputing-eine-18-jaehrige-gestaltet-die-it-zukunft-mit/).
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/awards.html) and has been migrated here.{{< /note >}}

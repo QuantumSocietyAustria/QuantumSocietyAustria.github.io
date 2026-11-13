@@ -32,3 +32,5 @@ We are grateful to the Austrian Institute of Technology and the QCI-CAT project 
 ## Social Media
 
 View more posts and reactions to this event on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7321908918043983872) and [Instagram](https://www.instagram.com/p/C3V7zoDtgv3/), and on the [QCI-CAT page](https://qci-cat.at/qci-days-event/).
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/event_qci_cat.html) and has been migrated here.{{< /note >}}

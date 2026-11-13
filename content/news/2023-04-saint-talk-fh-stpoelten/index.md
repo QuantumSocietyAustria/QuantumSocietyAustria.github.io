@@ -34,3 +34,5 @@ View the recording of the talk on [YouTube](https://youtu.be/ZWuG_nu3ja8?si=xi4S
 ## Social Media
 
 View more posts and reactions to this event on [LinkedIn](https://www.linkedin.com/company/quantum-society-austria/) and [Instagram](https://www.instagram.com/quantumsocietyaustria/).
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/event_saint.html) and has been migrated here.{{< /note >}}

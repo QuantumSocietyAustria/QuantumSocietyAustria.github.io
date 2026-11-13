@@ -43,3 +43,5 @@ A major topic toward the end of the event was Austria's role on the internationa
 ## Social Media
 
 View more posts and reactions to this event on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7322901299811762177) and [Instagram](https://www.instagram.com/p/DJKMaiiMT85/).
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/event_QuantumKickoff.html) and has been migrated here.{{< /note >}}

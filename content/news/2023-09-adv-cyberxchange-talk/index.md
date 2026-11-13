@@ -34,3 +34,5 @@ The Austrian Digital Value Conference provided an excellent platform for Quantum
 ## Social Media
 
 View more posts and reactions to this event on [LinkedIn](https://www.linkedin.com/company/quantum-society-austria/) and [Instagram](https://www.instagram.com/quantumsocietyaustria/), and on the [ADV LinkedIn page](https://www.linkedin.com/company/adv-arbeitsgemeinschaft-datenverarbeitung/).
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/event_adv.html) and has been migrated here.{{< /note >}}

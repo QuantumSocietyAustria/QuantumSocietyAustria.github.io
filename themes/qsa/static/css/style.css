@@ -513,3 +513,29 @@ ul.old a {
     opacity: 0.85;
     margin: -10px 0 25px 0;
 }
+
+.note {
+    margin: 25px 0 0 0;
+    padding: 12px 16px;
+    font-size: 0.9em;
+    background: rgba(127, 127, 127, 0.08);
+    border-left: 3px solid GrayText;
+    border-radius: 8px;
+}
+
+.note p,
+.note .note-title {
+    margin: 0 0 6px 0;
+}
+
+.note p:last-child {
+    margin-bottom: 0;
+}
+
+.note .note-title {
+    font-weight: 600;
+}
+
+.note--migrated {
+    border-left-color: #f6ff00;
+}

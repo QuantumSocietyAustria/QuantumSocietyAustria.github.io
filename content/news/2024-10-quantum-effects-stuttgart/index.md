@@ -26,3 +26,5 @@ Somya also highlighted the need to teach not just what quantum computing can do,
 A recurring theme in the panel was the encouraging growth of women entering the quantum industry, a trend that is outpacing other technical sectors, as noted by Dr. Katrin Kobe. However, Somya Rathee and fellow panelists agreed that success in quantum requires more than representation; it demands resilience, adaptability, and the courage to fail. As Dr. Marta Pascual Estarellas pointed out, the quantum field is evolving at a rapid pace, making it essential for professionals to embrace challenges, learn from their mistakes, and continuously update their skills. True progress will come not just from increasing diversity in numbers, but from fostering a culture that values continuous learning, flexibility, and perseverance.
 
 ![Women in quantum panel](images/Point3.jpg)
+
+{{< note kind="migrated" >}}This post was originally published on [our old website](https://www.quantumsocietyaustria.com/event_QuantumEffectsStuttgart.html) and has been migrated here.{{< /note >}}
