@@ -8,6 +8,8 @@ cover: "images/KickOffOver.jpg"
 
 # A Strong Kickoff for QuantumConnect Austria 🚀
 
+![QuantumConnect kickoff in Vienna](images/KickOffOver.jpg)
+
 In June 2024, Alex Waldherr from Quantum Society Austria had the honor of participating in the QuantumConnect kickoff event in Vienna!
 
 With over 70 participants from academia, politics, administration, startups, major law firms, industry leaders, publicly funded institutions, and media, the event showed just how much energy and momentum Austria's quantum ecosystem already has. We are proud that our mission to strengthen education, research, and collaboration across all sectors resonated with such a diverse audience.
