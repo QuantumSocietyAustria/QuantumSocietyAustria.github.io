@@ -1,6 +1,7 @@
 ---
 title: "QCI-CAT: Connecting Quantum Research, Industry, and Society"
 date: 2024-01-24T00:00:00+01:00
+author: "Somya Rathee"
 draft: false
 description: "At QCIDays Vienna 2024, QSA delivered a talk on collaboration between industry and society in Austria's quantum ecosystem."
 cover: "images/landing.jpg"

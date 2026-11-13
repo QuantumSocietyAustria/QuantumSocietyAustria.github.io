@@ -1,0 +1,9 @@
+{{ define "main" }}
+<main aria-role="main" class="single">
+	<h1>{{ .Title }}</h1>
+	{{ if .Params.author }}
+	<p class="byline">By {{ .Params.author }} · {{ .Date | time.Format ":date_long" }}</p>
+	{{ end }}
+	{{ .Content }}
+</main>
+{{ end }}

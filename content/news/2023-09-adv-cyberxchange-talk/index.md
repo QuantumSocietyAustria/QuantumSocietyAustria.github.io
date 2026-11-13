@@ -1,6 +1,7 @@
 ---
 title: "ADV Talk Quantum Machine Learning for Cyberspace"
 date: 2023-09-05T00:00:00+02:00
+author: "Somya Rathee"
 draft: false
 description: "How can Quantum Machine Learning revolutionize the Cyberspace? That's what Somya Rathee talked about at the ADV-CyberXChange Conference."
 cover: "images/adv1.jpeg"

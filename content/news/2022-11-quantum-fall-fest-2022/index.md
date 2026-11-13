@@ -1,6 +1,7 @@
 ---
 title: "Quantum Fall Fest 2022"
 date: 2022-11-26T00:00:00+01:00
+author: "Somya Rathee"
 draft: false
 description: "On November 26, 2022, we hosted our first Quantum Fall Fest, an event that was nothing short of QUANTASTIC! Over 70 participants joined us."
 cover: "images/qff22.jpeg"

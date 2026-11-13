@@ -1,6 +1,7 @@
 ---
 title: "Quantum Effects Stuttgart, Germany"
 date: 2024-10-08T00:00:00+02:00
+author: "Somya Rathee"
 draft: false
 description: "Somya Rathee joined the panel \"Let's get (Quantum) Physical! How Quantum Tech is Empowering Diverse Leadership and Workforce\" at Quantum Effects in Stuttgart."
 cover: "images/Overview.jpg"

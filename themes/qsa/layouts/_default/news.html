@@ -8,7 +8,7 @@
        {{ $page := . }}
             <li>
                 <div class="text">
-                <p class="meta">{{ .Date | time.Format ":date_long" }}</p>
+                <p class="meta">{{ .Date | time.Format ":date_long" }}{{ with .Params.author }} · {{ . }}{{ end }}</p>
                 <h2>
                     {{ if .Params.link }}
                     <a href="{{ .Params.link }}">{{ .Title }}</a>

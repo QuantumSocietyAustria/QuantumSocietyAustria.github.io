@@ -1,6 +1,7 @@
 ---
 title: "Social Artificial Intelligence Night at FH St. Pölten"
 date: 2023-04-01T00:00:00+02:00
+author: "Somya Rathee"
 draft: false
 description: "QSA's founder Somya Rathee delivered an informative talk on quantum machine learning at the Social Artificial Intelligence Night at FH St. Pölten."
 cover: "images/saint_12.jpg"

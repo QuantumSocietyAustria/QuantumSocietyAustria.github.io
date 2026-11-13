@@ -1,6 +1,7 @@
 ---
 title: "Quantum Fall Fest 2023"
 date: 2023-11-11T00:00:00+01:00
+author: "Somya Rathee"
 draft: false
 description: "Over 80 bright minds, a blend of students and professionals, converged at TU Vienna to delve into the latest advancements in Quantum Computing."
 cover: "images/qff.jpeg"

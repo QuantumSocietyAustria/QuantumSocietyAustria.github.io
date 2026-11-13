@@ -1,6 +1,7 @@
 ---
 title: "A Strong Kickoff for QuantumConnect Austria"
 date: 2024-06-01T00:00:00+02:00
+author: "Somya Rathee"
 draft: false
 description: "Alex Waldherr represented QSA at the QuantumConnect kickoff event in Vienna, with over 70 participants from academia, politics, industry and media."
 cover: "images/KickOffOver.jpg"
