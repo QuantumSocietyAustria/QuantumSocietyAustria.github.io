@@ -432,20 +432,20 @@ ul.old a {
 
 .upcoming-events h2,
 .latest-news h2 {
-    margin-top: 0;
+    font-size: 1em;
+    margin: 0 0 1.5lh 0;
 }
 
 .upcoming-events ul,
 .latest-news ul {
     list-style: none;
-    margin-bottom: 15px;
-    margin-bottom: 1lh;
+    margin: 0 0 1lh 0;
 }
 
 .upcoming-events li,
 .latest-news li {
     margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1lh;
 }
 
 .upcoming-events li:last-child,
@@ -456,7 +456,7 @@ ul.old a {
 .upcoming-events h3,
 .latest-news h3 {
     font-size: 1.15em;
-    margin: 0 0 2px 0;
+    margin: 0;
 }
 
 .upcoming-events p,
