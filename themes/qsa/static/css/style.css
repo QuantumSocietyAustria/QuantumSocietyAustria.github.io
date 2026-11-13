@@ -376,7 +376,8 @@ ul.old a {
     color: GrayText;
 }
 
-.upcoming-events {
+.upcoming-events,
+.latest-news {
     width: 100%;
     margin: 0 auto 40px auto;
     padding: 25px 30px;
@@ -404,37 +405,44 @@ ul.old a {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .upcoming-events {
+    .upcoming-events,
+    .latest-news {
         animation: none;
         box-shadow: var(--box-shadow-1);
     }
 }
 
-.upcoming-events h2 {
+.upcoming-events h2,
+.latest-news h2 {
     margin-top: 0;
 }
 
-.upcoming-events ul {
+.upcoming-events ul,
+.latest-news ul {
     list-style: none;
     margin-bottom: 15px;
     margin-bottom: 1lh;
 }
 
-.upcoming-events li {
+.upcoming-events li,
+.latest-news li {
     margin-left: 0;
     margin-bottom: 20px;
 }
 
-.upcoming-events li:last-child {
+.upcoming-events li:last-child,
+.latest-news li:last-child {
     margin-bottom: 0;
 }
 
-.upcoming-events h3 {
+.upcoming-events h3,
+.latest-news h3 {
     font-size: 1.15em;
     margin: 0 0 2px 0;
 }
 
-.upcoming-events p {
+.upcoming-events p,
+.latest-news p {
     margin: 0;
 }
 
@@ -442,6 +450,34 @@ ul.old a {
     opacity: 0.8;
 }
 
-.upcoming-events .more {
+.upcoming-events .more,
+.latest-news .more {
     text-align: right;
+}
+
+.news>ul>li {
+    display: flow-root;
+}
+
+.news .cover {
+    float: right;
+    margin: 0 0 8px 20px;
+}
+
+.news .cover img {
+    display: block;
+    width: 150px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.single img {
+    max-width: 100%;
+    height: auto;
+}
+
+.latest-news .meta {
+    font-size: 0.85em;
+    opacity: 0.85;
 }
