@@ -370,6 +370,7 @@ footer {
 }
 
 .list > ul h2 {
+    font-size: var(--base-font-size);
     margin-bottom: 4px;
 }
 
