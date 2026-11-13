@@ -7,11 +7,7 @@
        {{ range sort .Data.Pages ".Date" "desc" }}
        {{ $page := . }}
             <li>
-                {{ with $page.Params.cover }}
-                {{ with $page.Resources.GetMatch . }}
-                <a class="cover" href="{{ $page.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ .RelPermalink }}" alt=""></a>
-                {{ end }}
-                {{ end }}
+                <div class="text">
                 <p class="meta">{{ .Date | time.Format ":date_long" }}</p>
                 <h2>
                     {{ if .Params.link }}
@@ -22,6 +18,12 @@
                 </h2>
                 {{ with .Description }}
                 <p>{{ . }}</p>
+                {{ end }}
+                </div>
+                {{ with $page.Params.cover }}
+                {{ with $page.Resources.GetMatch . }}
+                <a class="cover" href="{{ $page.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ .RelPermalink }}" alt=""></a>
+                {{ end }}
                 {{ end }}
             </li>
        {{ end }}
