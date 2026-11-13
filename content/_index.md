@@ -15,4 +15,6 @@ We are an inclusive quantum computing community for Austria.
 
 {{< upcoming-events >}}
 
+{{< latest-news >}}
+
 {{< contact >}}
